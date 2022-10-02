@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-deployment
-  namespace: argocd
 spec:
   replicas: 2
   selector:
